@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap "
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+			integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<section class="about">
+			<div class="container-desktop">
+				<div class="container">
+				<div class="background"><div class="about-information">
+                    <h2 class="about-title">About us</h2>
+				        <h3 class="about-subtitle">Our сraftsmanship: сreating unique handmade furniture</h3>
+				        <p class="about-desc">
+					    Discover the inspiration behind our modern and minimalist
+					    designs, and see how we bring them to life through our
+					    skilled craftsmanship.
+				        </p>
+				<ul class="about-list">
+					<li class="about-item">
+						<p class="about-statistic">5+</p>
+						<p class="about-item-text">
+							Years of experience creating handcrafted furniture
+						</p>
+					</li>
+					<li class="about-item">
+						<p class="about-statistic">100%</p>
+						<p class="about-item-text">
+							Sustainably sourced materials used in all of our
+							furniture
+						</p>
+					</li>
+					<li class="about-item">
+						<p class="about-statistic">500+</p>
+						<p class="about-item-text">
+							Unique furniture designs crafted by our skilled
+							artisans
+						</p>
+					</li>
+				</ul>
+            </div></div>
+        </div>
+                <div class="img-container">
+				    <picture>
+					    <source
+						media="(min-width: 1440px)"
+						srcset="
+							./images/about_desk.jpg 1x,
+							./images/about_desk@2x.jpg 2x
+						"
+					    />
+					    <source
+						media="(min-width: 768px)"
+						srcset="
+							./images/about_tab.jpg 1x,
+							./images/about_tab@2x.jpg 2x
+						"
+					    />
+					    <source
+						media="(min-width: 320px)"
+						srcset="
+							./images/about_mob.jpg 1x,
+							./images/about_mob@2x.jpg 2x
+						"
+					    />
+					    <img src="./images/about_tab.jpg" alt="Sofa" />
+				    </picture>
+			    </div>
+			</div>
+		</section>
+		<!-- <section class="bestsellers">
+			<div class="container">
+                <h2 class="bestsellers-tetle">Bestsellers</h2>
+			<ul class="bestsellers-list">
+				<li class="bestsellers-item">
+					<picture>
+						<source
+							media="(min-width: 1158px)"
+							srcset="
+								./images/bestsellers_1_desk.jpg    1x,
+								./images/bestsellers_1_desk@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/bestsellers_1_tab.jpg    1x,
+								./images/bestsellers_1_tab@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 320px)"
+							srcset="
+								./images/bestsellers_1_mob.jpg    1x,
+								./images/bestsellers_1_mob@2x.jpg 2x
+							"
+						/>
+						<img
+							src="./images/bestsellers_1_tab.jpg"
+							alt="The modern platform bed"
+						/>
+					</picture>
+					<h3>The modern platform bed</h3>
+					<p>750$</p>
+				</li>
+				<li class="bestsellers-item">
+					<picture>
+						<source
+							media="(min-width: 1158px)"
+							srcset="
+								./images/bestsellers_2_desk.jpg    1x,
+								./images/bestsellers_2_desk@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/bestsellers_2_tab.jpg    1x,
+								./images/bestsellers_2_tab@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 320px)"
+							srcset="
+								./images/bestsellers_2_mob.jpg    1x,
+								./images/bestsellers_2_mob@2x.jpg 2x
+							"
+						/>
+						<img
+							src="./images/bestsellers_2_mob.jpg"
+							alt="The Cozy Lounge Chair"
+						/>
+					</picture>
+					<h3>The Cozy Lounge Chair</h3>
+					<p>230$</p>
+				</li>
+				<li  class="bestsellers-item">
+					<picture>
+						<source
+							media="(min-width: 1158px)"
+							srcset="
+								./images/bestsellers_3_desk.jpg    1x,
+								./images/bestsellers_3_desk@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/bestsellers_3_tab.jpg    1x,
+								./images/bestsellers_3_tab@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 320px)"
+							srcset="
+								./images/bestsellers_3_mob.jpg    1x,
+								./images/bestsellers_3_mob@2x.jpg 2x
+							"
+						/>
+						<img
+							src="./images/bestsellers_3_mob.jpg"
+							alt="The industrial accent chair"
+						/>
+					</picture>
+					<h3>The industrial accent chair</h3>
+					<p>250$</p>
+				</li>
+				<li class="bestsellers-item mobile-hidden">
+					<picture>
+						<source
+							media="(min-width: 1158px)"
+							srcset="
+								./images/bestsellers_4_desk.jpg    1x,
+								./images/bestsellers_4_desk@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/bestsellers_4_tab.jpg    1x,
+								./images/bestsellers_4_tab@2x.jpg 2x
+							"
+						/>
+						<img
+							src="./images/bestsellers_4_tab.jpg"
+							alt="The sleek stand"
+						/>
+					</picture>
+					<h3>The sleek stand</h3>
+					<p>300$</p>
+				</li>
+				<li class="bestsellers-item mobile-hidden">
+					<picture>
+						<source
+							media="(min-width: 1158px)"
+							srcset="
+								./images/bestsellers_5_desk.jpg    1x,
+								./images/bestsellers_5_desk@2x.jpg 2x
+							"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="
+								./images/bestsellers_5_tab.jpg    1x,
+								./images/bestsellers_5_tab@2x.jpg 2x
+							"
+						/>
+						<img
+							src="./images/bestsellers_5_tab.jpg"
+							alt="The minimalist sofa"
+						/>
+					</picture>
+					<h3>The minimalist sofa</h3>
+					<p>650$</p>
+				</li>
+			</ul>
+            </div>
+		</section>-->
+	</body>
+</html>
