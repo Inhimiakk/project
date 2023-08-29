@@ -42,13 +42,16 @@ body{
 }
 
 .container {
-    max-width: 375px;
+    background-color: var(--light-blue);
+    max-width: 768px;
     padding: 0 16px 64px 16px;
     margin: 0 auto;
 }
 
-.about {
-    background-color: var(--light-blue);
+
+.background{
+    display: flex;
+    justify-content: center;
 }
 
 .about-information{
@@ -133,6 +136,7 @@ body{
 @media screen and (min-width :768px) {
 
     .container{
+        background-color: var(--white);
         max-width: 1158px;
         padding: 0 32px 30px 32px;
     }
